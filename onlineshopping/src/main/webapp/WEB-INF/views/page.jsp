@@ -27,7 +27,7 @@
 </script>
 
 <!-- Bootstrap core CSS -->
-<link href="${css}/bootstrap.min.css" rel="stylesheet">
+<!--    <link href="${css}/bootstrap.min.css" rel="stylesheet">-->
 <link href="${css}/bootstrap.css" rel="stylesheet">
 
 <!-- Bootstrap Readable Theme -->
@@ -63,6 +63,12 @@
 			<c:if test="${userClickContact == true }">
 				<%@include file="contact.jsp"%>
 			</c:if>
+			
+			<!-- Loads only when user clicks AllProduct and CategoryProducts -->
+			<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true}">
+				<%@include file="listProducts.jsp"%>
+			</c:if>
+			
 		</div>
 
 		<!-- Footer -->

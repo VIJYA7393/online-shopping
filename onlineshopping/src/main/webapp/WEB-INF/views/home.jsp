@@ -3,12 +3,7 @@
         <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">Shop Name</p>
-                <div class="list-group">
-                    <a href="#" class="list-group-item">Printable</a>
-                    <a href="#" class="list-group-item">Cupcake Wrappers</a>
-                    <a href="#" class="list-group-item">Authentic Dragon Bones</a>
-                </div>
+               <%@include file="./shared/sidebar.jsp" %>
             </div>
 
             <div class="col-md-9">
@@ -24,13 +19,13 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="CAT_1.png/800x300" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="CAT_2.png/800x300" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="CAT_3.png/800x300" alt="">
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">

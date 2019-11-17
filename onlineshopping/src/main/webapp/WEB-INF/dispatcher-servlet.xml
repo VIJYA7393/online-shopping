@@ -13,6 +13,7 @@
    ">
    
    <context:component-scan base-package="net.vijya.onlineshopping.controller"/>
+   <context:component-scan base-package="net.vijya.shoppingbackend.daoimpl"/>
    
    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
    				
